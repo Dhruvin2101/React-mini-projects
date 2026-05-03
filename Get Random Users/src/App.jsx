@@ -9,7 +9,6 @@ const response = async () => {
   const url = 'https://api.freeapi.app/api/v1/public/randomusers/user/random';
   const options = {method: 'GET', headers: {accept: 'application/json'}};
   const data = await fetch(url, options)
-  
   return data.json()
 }
 
