@@ -1,5 +1,5 @@
 {
-  "name": "get-random-users",
+  "name": "get-users",
   "private": true,
   "version": "0.0.0",
   "type": "module",
