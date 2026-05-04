@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import UserCard from "./Components/userCard";
+import UserCard from "./Components/UserCard.jsx";
 import { useEffect } from "react";
 
 function App() {
