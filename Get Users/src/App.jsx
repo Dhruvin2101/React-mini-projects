@@ -6,28 +6,35 @@ import { useEffect } from "react";
 function App() {
   const [userData, setUserData] = useState(null);
 
-  useEffect(() => {
-    const fetchResponse = async () => {
-      try {
-        const url =
-          "https://api.freeapi.app/api/v1/public/randomusers/user/random";
-        const options = {
-          method: "GET",
-          headers: { accept: "application/json" },
-        };
-        const response  =  await fetch(url, options);
-        const data = await response.json()
-        setUserData(data);
-      } catch (error) {
-        console.log(error);
-      }
-    };
+  const fetchResponse = async () => {
+    try {
+      const url =
+        "https://api.freeapi.app/api/v1/public/randomusers/user/random";
+      const options = {
+        method: "GET",
+        headers: { accept: "application/json" },
+      };
+      const response = await fetch(url, options);
+      const data = await response.json();
+      setUserData(data);
+    } catch (error) {
+      console.log(error);
+    }
+  };
 
+
+  useEffect(() => {
     fetchResponse()
   }, []);
-if (!userData) return <p>Loading...</p>;
+
+  if (!userData) return <p>Loading...</p>;
+
+
+
   return (
-      <UserCard data={userData} />
+    <div className="main-container">
+      <UserCard data={userData} generateNewUser={fetchResponse} />
+    </div>
   );
 }
 
