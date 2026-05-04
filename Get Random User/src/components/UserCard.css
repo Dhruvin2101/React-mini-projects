@@ -1,0 +1,135 @@
+.gasoek-one-regular {
+  font-family: "Gasoek One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.geist {
+  font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Gasoek One";
+  font-size: 80px;
+  font-weight: 400;
+  margin-bottom: 0px;
+  margin-top: -20px;
+}
+
+.card-container {
+  height: 500px;
+  width: 440px;
+  background-color: #f4f2f0;
+  padding: 32px;
+  border: 3px solid black;
+  border-radius: 15px;
+  box-shadow: 10px 10px 2px black;
+  margin-top: 2px;
+}
+
+.profile-section {
+  height: 200px;
+  width: 100%;
+  background-color: #4ecb71;
+  border: 3px solid black;
+  border-radius: 15px;
+  box-shadow: 4px 4px 2px black;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.user-img{
+  border: 3px solid black;
+  height: 160px;
+  border-radius: 25px;
+  box-shadow: 4px 4px black;
+  transition: 0.3s ease;
+}
+.user-img:hover{
+height: 170px;
+}
+.name-section {
+  font-family: "Geist";
+  font-weight: 600;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name {
+  padding-left: -4px;
+  margin-bottom: 9px;
+}
+.age {
+  padding-right: 2px;
+  margin-bottom: 9px;
+}
+
+.email {
+  font-family: "Geist";
+  font-weight: 600;
+  font-size: 24px;
+  padding-left: -4px;
+  margin-bottom: 9px;
+}
+.lucide-pen-line-icon {
+  margin-right: 15px;
+}
+.lucide-mail-icon {
+  margin-right: 15px;
+}
+.gender {
+  font-family: "Geist";
+  font-weight: 600;
+  font-size: 24px;
+  margin-left: -4px;
+  margin-bottom: 9px;
+}
+.lucide-venus-and-mars-icon {
+  margin-right: 13px;
+}
+.address {
+  font-family: "Geist";
+  font-weight: 600;
+  font-size: 24px;
+  margin-left: -4px;
+  margin-bottom: 9px;
+}
+.lucide-map-pin-icon {
+  margin-right: 14px;
+}
+.country {
+  font-family: "Geist";
+  font-weight: 600;
+  font-size: 24px;
+  margin-left: -2px;
+  margin-bottom: 9px;
+}
+.lucide-map-icon {
+  margin-right: 16px;
+}
+
+.btn {
+  width: 100%;
+  margin-top: 26px;
+  height: 50px;
+  border: 3px solid black;
+  box-shadow: 7px 7px black;
+  font-family: "Gasoek";
+  font-size: 30px;
+  outline: none;
+  font-weight: 900;
+  transition: 0.2s ease;
+  border-radius: 10px;
+}
+.btn:active {
+  cursor: pointer;
+  transform: translateY(5px);
+  box-shadow: 1px 1px black;
+}
