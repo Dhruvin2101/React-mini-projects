@@ -1,7 +1,7 @@
 import './App.css'
 import UserCard from "./components/UserCard.jsx"
 import { useState, useEffect } from 'react';
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   const [userData, setUserData] = useState(null);
