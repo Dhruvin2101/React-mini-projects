@@ -30,6 +30,7 @@ https://get-meals-green.vercel.app/
 
 
 ## Screenshots
+<img width="5120" height="3984" alt="get-meals-green vercel app_" src="https://github.com/user-attachments/assets/6d93d91b-9297-4c53-b632-a012fcd0417f" />
 
 
 
