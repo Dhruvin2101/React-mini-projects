@@ -1,0 +1,22 @@
+.main-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.meals-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+.main-heading {
+  font-size: 75px;
+  color: black;
+  margin-top: 55px;
+  margin-bottom: 35px;
+  position: relative;
+}
+.outer-eye-container{
+  position: absolute;
+  transform: translate(450px,-208px);
+rotate: 25deg;}

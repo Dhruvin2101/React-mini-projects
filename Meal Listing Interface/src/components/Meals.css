@@ -1,0 +1,142 @@
+.gasoek-one-regular {
+  font-family: "Gasoek One", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.geist {
+  font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Gasoek One";
+  font-size: 60px;
+  font-weight: 400;
+  margin-bottom: 0px;
+  margin-top: -20px;
+  color: #ffffff;
+}
+
+.card-container {
+  height: 470px;
+  width: 350px;
+  background-color: #f4f2f0;
+  padding: 32px;
+  border: 3px solid black;
+  border-radius: 15px;
+  box-shadow: 10px 10px 2px black;
+  margin-top: 2px;
+  margin-bottom: 20px;
+}
+
+.profile-section {
+  height: 200px;
+  width: 100%;
+  background-color: #000000;
+  border: 3px solid black;
+  border-radius: 15px;
+  box-shadow: 4px 4px 2px black;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-section {
+  height: 200px;
+  width: 100%;
+}
+.food-img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.user-img:hover {
+  height: 170px;
+}
+.name-section {
+  font-family: "Geist";
+  font-weight: 600;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name {
+  padding-left: -4px;
+  margin-bottom: 9px;
+  font-weight: 100;
+  font-family: "Gasoek One";
+  font-size: 27px;
+  letter-spacing: 0.3px;
+}
+.Category {
+  padding-right: 2px;
+  margin-bottom: 9px;
+  font-size: 18px;
+  border: 2px solid black;
+  padding: 0px 5px;
+  border-radius: 8px;
+  background-color: #ff6b6c;
+  color: #ffffff;
+}
+
+.Area {
+  font-family: "Geist";
+  font-weight: 600;
+  font-size: 24px;
+  padding-left: -4px;
+  margin-bottom: 9px;
+}
+
+.Ingredients {
+  font-family: "Geist";
+  font-weight: 600;
+  font-size: 24px;
+  margin-left: 2px;
+  margin-bottom: 9px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items:baseline;
+  gap: 5px;
+}
+.ingredient-list {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.ingredient-box {
+  background-color: #ffbf99;
+  font-size: 18px;
+  border: 3px solid black;
+  padding: 0px 5px;
+  border-radius: 8px;
+}
+
+.btn {
+  width: 100%;
+  margin-top: 55px;
+  height: 50px;
+  border: 3px solid black;
+  box-shadow: 7px 7px black;
+  font-family: "Gasoek";
+  font-size: 30px;
+  outline: none;
+  font-weight: 900;
+  transition: 0.2s ease;
+  border-radius: 10px;
+}
+.btn:active {
+  cursor: pointer;
+  transform: translateY(5px);
+  box-shadow: 1px 1px black;
+}
+.button-container {
+  display: flex;
+  gap: 19px;
+}
