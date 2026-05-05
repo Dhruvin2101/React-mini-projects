@@ -35,7 +35,7 @@ function App() {
         <span className="outer-eye-container">
           <div style={{ marginBottom: "20px" }}>
   <img
-    src="/eyes.svg"
+    src="/eye-icon.svg"
     alt="eye"
     style={{
       width: "120px",
