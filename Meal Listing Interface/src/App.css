@@ -16,7 +16,15 @@
   margin-bottom: 35px;
   position: relative;
 }
-.outer-eye-container{
+.outer-eye-container {
   position: absolute;
-  transform: translate(450px,-208px);
-rotate: 25deg;}
+  transform: translate(450px, -208px);
+  rotate: 25deg;
+  transition: 0.3s;
+}
+.outer-eye-container:hover {
+  position: absolute;
+  transform: translate(470px, -278px);
+  rotate: 30deg;
+  padding: 8px;
+}
