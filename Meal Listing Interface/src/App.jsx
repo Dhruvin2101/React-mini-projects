@@ -32,7 +32,7 @@ function App() {
   return (
     <div className="main-section">
       <h1 className="main-heading">
-        <span className="outer-eye-container" style={{top: -40.8817, left: 139.46, width: 146.006,height: 102.204}}><img alt="" loading="lazy" decoding="async" data-nimg="fill" className="eye-svg" sizes="100vw" srcSet="/eyes.svg" src="/eyes.svg&amp;w=3840&amp;q=75" style={{position: "absolute", height: "100%", width: "100%", inset: "0px", color: "transparent"}}/></span>
+        <span className="outer-eye-container" style={{top: -40.8817, left: 139.46, width: 146.006,height: 102.204}}><img alt="" loading="lazy" decoding="async" data-nimg="fill" className="eye-svg" sizes="100vw" srcSet="/eyes.svg" src="/eyes.svg" style={{position: "absolute", height: "100%", width: "100%", inset: "0px", color: "transparent"}}/></span>
         Know Your <span style={{ color: "#ffbf99" }}>Meals</span>
       </h1>
       <div className="meals-container">
