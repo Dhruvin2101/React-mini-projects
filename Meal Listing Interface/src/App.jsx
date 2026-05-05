@@ -33,11 +33,17 @@ function App() {
     <div className="main-section">
       <h1 className="main-heading">
         <span className="outer-eye-container">
-          <img
-            src="/eyes.svg"
-            alt="eye"
-            style={{ width: "100px", position: "relative" }}
-          />
+          <div style={{ marginBottom: "20px" }}>
+  <img
+    src="/eyes.svg"
+    alt="eye"
+    style={{
+      width: "120px",
+      display: "block",
+      border: "2px solid red"
+    }}
+  />
+</div>
         </span>
         Know Your <span style={{ color: "#ffbf99" }}>Meals</span>
       </h1>
