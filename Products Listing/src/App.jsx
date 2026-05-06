@@ -32,11 +32,7 @@ function App() {
   return (
     <div className="main-section">
       <h1 className="main-heading">
-        <span className="outer-eye-container">
-          <div style={{ marginBottom: "20px" }}>
-</div>
-        </span>
-        Know Your <span style={{ color: "#ffbf99" }}>Meals</span>
+        Shop <span style={{ color: "#5865f2" }}>Smart</span>
       </h1>
       <div className="meals-container">
         {productData.map((product) => (

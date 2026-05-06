@@ -1,16 +1,36 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Random Product Listing
 
-Currently, two official plugins are available:
+This Website is made with React as a personal Project to learn how different hooks works and how to show data after fetching data from a url and also the ease of using components.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## API Reference
+https://api.freeapi.app/api/v1/public/randomproducts/{productId}
+#### Get products by Id
 
-## React Compiler
+```http
+  Get meal by id
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `productId` | `string` | **Required**.   Id of product to fetch|
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+## Demo
+
+https://get-meals-green.vercel.app/
+
+
+## 🔗 Links
+[![Github](https://img.shields.io/badge/Github-grey?style=for-the-badge)](https://github.com/Dhruvin2101)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dhruvin-patel-08a1a3244/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/Dhruvin_patel_7/)
+
+
+## Screenshots
+<img width="5120" height="3984" alt="get-meals-green vercel app_" src="https://github.com/user-attachments/assets/6d93d91b-9297-4c53-b632-a012fcd0417f" />
+
+
+
