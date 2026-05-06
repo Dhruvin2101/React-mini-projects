@@ -25,7 +25,8 @@ https://get-meals-green.vercel.app/
 
 
 ## Screenshots
-<img width="5120" height="3984" alt="get-random-users" src="https://github.com/user-attachments/assets/6d93d91b-9297-4c53-b632-a012fcd0417f" />
+<img width="5120" height="3672" alt="localhost_5173_" src="https://github.com/user-attachments/assets/4234ec32-38bc-45b5-83c8-6a10f615e3cb" />
+
 
 
 
