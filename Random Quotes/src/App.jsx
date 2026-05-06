@@ -32,8 +32,6 @@ function App() {
       <h1 className="main-heading">
         Quote <span style={{ color: "#ff6b6c" }}>Vault</span>
       </h1>
-      <img src="/icons/vault.png" alt="" className="vault" />
-
       <div className="jokes-container">
         <Jokes data={quoteData1} />
         <Jokes data={quoteData2} />
