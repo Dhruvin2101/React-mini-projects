@@ -20,7 +20,7 @@ https://api.freeapi.app/api/v1/public/randomproducts/{productId}
 
 ## Demo
 
-https://get-meals-green.vercel.app/
+https://buy-smart-orcin.vercel.app/
 
 
 ## 🔗 Links
@@ -30,7 +30,4 @@ https://get-meals-green.vercel.app/
 
 
 ## Screenshots
-<img width="5120" height="3984" alt="get-meals-green vercel app_" src="https://github.com/user-attachments/assets/6d93d91b-9297-4c53-b632-a012fcd0417f" />
-
-
-
+<img width="4180" height="3522" alt="localhost_5173_ (1)" src="https://github.com/user-attachments/assets/8ca9fd55-477a-43a2-8681-a9112ade7827" />
