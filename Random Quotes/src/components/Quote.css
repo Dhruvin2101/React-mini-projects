@@ -1,0 +1,113 @@
+.gasoek-one-regular {
+  font-family: "Gasoek One", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.geist {
+  font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Gasoek One";
+  font-size: 60px;
+  font-weight: 400;
+  margin-bottom: 0px;
+  margin-top: -20px;
+  color: #ffffff;
+}
+
+.card-container {
+  min-height: 250px;
+  width: 570px;
+  background-color: #f4f2f0;
+  padding: 32px;
+  border: 5px solid black;
+  border-radius: 15px;
+  box-shadow: 10px 10px 2px black;
+  transition: 0.2s;
+  z-index: 1;
+  position: relative;
+  margin-top: 50px;
+}
+
+.card-bg {
+  position: absolute;
+  z-index: -1;
+  opacity: 75%;
+  margin: -32px;
+  border-radius: 10px;
+}
+.bulb{
+  position: absolute;
+  margin-top: 10px;
+  rotate: 315deg;
+  height: 150px;
+  bottom: -3%;
+  right: -2%;
+}
+.name-section {
+  font-family: "Geist";
+  font-weight: 600;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  padding-left: -4px;
+  margin-bottom: 5px;
+  font-weight: 100;
+  font-family: "Gasoek One";
+  font-size: 32px;
+  letter-spacing: 0.3px;
+}
+
+.description {
+  margin-top: 10px;
+  font-family: "Geist";
+  font-weight: 600;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.author {
+  font-family: "Geist";
+  font-size: 18px;
+  font-weight: 600;
+}
+.author-line {
+  text-decoration: underline;
+}
+.btn {
+  width: 100%;
+  height: 50px;
+  border: 3px solid black;
+  box-shadow: 7px 7px black;
+  font-family: "Gasoek One";
+  font-size: 30px;
+  outline: none;
+  font-weight: 200;
+  transition: 0.2s ease;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+.btn:active {
+  cursor: pointer;
+  transform: translateY(5px);
+  box-shadow: 1px 1px black;
+}
+.button-container {
+  gap: 19px;
+  margin-top: -10px;
+  margin-bottom: 45px;
+  z-index: 5;
+  width: 90%;
+  position: absolute;
+  top: 80%;
+}

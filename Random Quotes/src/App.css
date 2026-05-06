@@ -1,0 +1,59 @@
+.main-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.jokes-container {
+  display: flex;
+  gap: 55px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.main-heading {
+  margin-top: 10px;
+  font-size: 75px;
+  color: #ffffff;
+  padding-top: 7px;
+  margin-bottom: 55px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 19px;
+  margin-top: 0px;
+  margin-bottom: 45px;
+  z-index: 5;
+  position: relative;
+  width: 100%;
+}
+.btn {
+  max-width: 350px;;
+  height: 50px;
+  border: 3px solid black;
+  box-shadow: 7px 7px black;
+  font-family: "Gasoek One";
+  font-size: 30px;
+  outline: none;
+  font-weight: 200;
+  transition: 0.2s ease;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-bottom: 25px;
+  top: 130px;
+  position: absolute;
+}
+.btn:active {
+  cursor: pointer;
+  transform: translateY(5px);
+  box-shadow: 1px 1px black;
+}
+.vault{
+  position: absolute;
+  top:38px;
+  rotate: 15deg;
+  right: 526px;
+  height: 110px;
+}
