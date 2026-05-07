@@ -14,7 +14,7 @@ const Product = ({ data }) => {
           <div className="name-section">
             <div className="name">{data.title}</div>
           </div>
-          <div className="Ingredients">
+          <div className="buy-rating-contianer">
               <div className="buy-box">BUY NOW ${data.price}</div>
               <div className="star-box"><img src="/icons/star.png" alt="" className="star" /><div className="star-rating">{data.rating}</div></div>
           </div>

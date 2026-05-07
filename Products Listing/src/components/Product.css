@@ -89,7 +89,7 @@ h1 {
   color: rgb(76, 76, 76);
 }
 
-.Ingredients {
+.buy-rating-contianer {
   font-family: "Geist";
   font-weight: 600;
   font-size: 24px;
@@ -109,16 +109,8 @@ h1 {
   height: 50px;
 }
 .star-rating {
-  background-color: #4cca72;
   padding: 15px 20px;
-  border: 3px solid black;
-  border-radius: 17px;
   cursor: pointer;
-  box-shadow: 5px 5px black;
-}
-.star-rating:active {
-  box-shadow: 2px 2px black;
-  transform: translate(2px, 2px);
 }
 
 .buy-box {
@@ -139,8 +131,12 @@ h1 {
 .star-box {
   font-size: 18px;
   display: flex;
+  border-radius: 17px;
+  border: 3px solid black;
   align-items: center;
   font-weight: 800;
+  background-color: #4cca72;
+  box-shadow: 5px 5px black;
 }
 
 .btn {

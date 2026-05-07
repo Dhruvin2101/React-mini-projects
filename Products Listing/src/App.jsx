@@ -7,7 +7,7 @@ function App() {
 
   const fetchResponse = async () => {
     try {
-      const ids = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+      const ids = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 
       const requests = ids.map((id) =>
         fetch(`https://api.freeapi.app/api/v1/public/randomproducts/${id}`)
